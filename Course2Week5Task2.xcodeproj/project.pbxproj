@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		CE5DB04224C368B500C7D228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB04124C368B500C7D228 /* AppDelegate.swift */; };
-		CE5DB04624C368B500C7D228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB04524C368B500C7D228 /* ViewController.swift */; };
+		CE5DB04624C368B500C7D228 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB04524C368B500C7D228 /* ViewController1.swift */; };
 		CE5DB04924C368B500C7D228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB04724C368B500C7D228 /* Main.storyboard */; };
 		CE5DB04B24C368B700C7D228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB04A24C368B700C7D228 /* Assets.xcassets */; };
 		CE5DB04E24C368B700C7D228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5DB04C24C368B700C7D228 /* LaunchScreen.storyboard */; };
+		CE5DB05624C36CE100C7D228 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB05524C36CE100C7D228 /* ViewController2.swift */; };
+		CE5DB05824C36F7300C7D228 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DB05724C36F7300C7D228 /* ViewController3.swift */; };
+		CECF4DF224C38C65007DF600 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF4DF024C38C65007DF600 /* ViewController4.swift */; };
+		CECF4DF324C38C65007DF600 /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECF4DF124C38C65007DF600 /* ViewController4.xib */; };
+		CECF4DF924C4187B007DF600 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF4DF824C4187B007DF600 /* ViewController5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE5DB03E24C368B500C7D228 /* Course2Week5Task2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Course2Week5Task2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5DB04124C368B500C7D228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE5DB04524C368B500C7D228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5DB04524C368B500C7D228 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		CE5DB04824C368B500C7D228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5DB04A24C368B700C7D228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5DB04D24C368B700C7D228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5DB04F24C368B700C7D228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5DB05524C36CE100C7D228 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CE5DB05724C36F7300C7D228 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		CECF4DF024C38C65007DF600 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		CECF4DF124C38C65007DF600 /* ViewController4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController4.xib; sourceTree = "<group>"; };
+		CECF4DF824C4187B007DF600 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,43 @@
 		CE5DB04024C368B500C7D228 /* Course2Week5Task2 */ = {
 			isa = PBXGroup;
 			children = (
+				CE5DB05924C374AD00C7D228 /* Code */,
+				CE5DB05B24C3751D00C7D228 /* Supporting files */,
+				CE5DB05A24C374EC00C7D228 /* Resources */,
+			);
+			path = Course2Week5Task2;
+			sourceTree = "<group>";
+		};
+		CE5DB05924C374AD00C7D228 /* Code */ = {
+			isa = PBXGroup;
+			children = (
 				CE5DB04124C368B500C7D228 /* AppDelegate.swift */,
-				CE5DB04524C368B500C7D228 /* ViewController.swift */,
+				CE5DB04524C368B500C7D228 /* ViewController1.swift */,
+				CE5DB05524C36CE100C7D228 /* ViewController2.swift */,
+				CE5DB05724C36F7300C7D228 /* ViewController3.swift */,
+				CECF4DF024C38C65007DF600 /* ViewController4.swift */,
+				CECF4DF124C38C65007DF600 /* ViewController4.xib */,
+				CECF4DF824C4187B007DF600 /* ViewController5.swift */,
 				CE5DB04724C368B500C7D228 /* Main.storyboard */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		CE5DB05A24C374EC00C7D228 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				CE5DB04A24C368B700C7D228 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE5DB05B24C3751D00C7D228 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				CE5DB04C24C368B700C7D228 /* LaunchScreen.storyboard */,
 				CE5DB04F24C368B700C7D228 /* Info.plist */,
 			);
-			path = Course2Week5Task2;
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +164,7 @@
 				CE5DB04E24C368B700C7D228 /* LaunchScreen.storyboard in Resources */,
 				CE5DB04B24C368B700C7D228 /* Assets.xcassets in Resources */,
 				CE5DB04924C368B500C7D228 /* Main.storyboard in Resources */,
+				CECF4DF324C38C65007DF600 /* ViewController4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5DB04624C368B500C7D228 /* ViewController.swift in Sources */,
+				CE5DB04624C368B500C7D228 /* ViewController1.swift in Sources */,
 				CE5DB04224C368B500C7D228 /* AppDelegate.swift in Sources */,
+				CE5DB05824C36F7300C7D228 /* ViewController3.swift in Sources */,
+				CE5DB05624C36CE100C7D228 /* ViewController2.swift in Sources */,
+				CECF4DF924C4187B007DF600 /* ViewController5.swift in Sources */,
+				CECF4DF224C38C65007DF600 /* ViewController4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Course2Week5Task2/Info.plist;
+				INFOPLIST_FILE = "Course2Week5Task2/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Course2Week5Task2/Info.plist;
+				INFOPLIST_FILE = "Course2Week5Task2/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
